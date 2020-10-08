@@ -1,0 +1,13 @@
+<div class="alert alert-success" role="alert">
+  <!-- A simple success alert—check it out! -->
+  <p> From component 1:Thanks for subscribing 💌 <strong>{{user}}</strong> </p>
+</div>
+<hr>
+<div class="card">
+    <div class="alert alert-danger">
+
+        <input [(ngModel)]="newUser" placeholder="Name"/> <br> 
+        <input type="email" placeholder="email"/> <br> <br>
+        <button class="btn btn-sm btn-success" (click)="editUser();">Subscribe to Newsletter</button>
+    </div>
+</div>
